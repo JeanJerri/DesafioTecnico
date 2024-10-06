@@ -1,3 +1,5 @@
+package Questao4;
+
 public class FaturamentoEstado {
     private String estado;
     private double valor, percentual;

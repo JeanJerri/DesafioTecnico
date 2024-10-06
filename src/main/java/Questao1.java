@@ -1,4 +1,4 @@
-public class Main {
+public class Questao1 {
     public static void main(String[] args) {
         int indice = 13;
         int soma = 0;

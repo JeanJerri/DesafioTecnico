@@ -1,3 +1,4 @@
+package Questao3;
 public class FaturamentoMensal {
     private int dia;
     private int valor;
