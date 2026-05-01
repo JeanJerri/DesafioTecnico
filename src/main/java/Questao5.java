@@ -12,6 +12,7 @@ public class Questao5 {
 
         System.out.println("Informe uma String:");
         str = entrada.nextLine();
+        entrada.close();
 
         fim = str.length() - 1;
         caracteres = str.toCharArray();
@@ -20,7 +21,7 @@ public class Questao5 {
         for (int i = fim; i >= 0; i--) {
             caracteresInvertidos[inicio] = caracteres[i];
             inicio++;
-//            System.out.println(new String(caracteresInvertidos));
+            // System.out.println(new String(caracteresInvertidos));
         }
 
         str = new String(caracteresInvertidos);
